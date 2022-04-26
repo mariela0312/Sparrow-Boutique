@@ -64,6 +64,7 @@ while ($row = $a->fetch_assoc()) {
                 <h1><?php echo($if['title']);?></h1>
                 <h3>
                 <?php 
+                error_reporting(0);
                 if($row['params'] == 0){
                     echo "Дамски дрехи";
                     } else{

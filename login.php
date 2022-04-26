@@ -25,7 +25,7 @@ if ($loggedIn){
                     <div class="form-container">
                         <div class="form-btn">
                             <span onclick="login()">Влез</span>
-                            <span onclick="register()">Регисрация</span>
+                            <span onclick="register()">Регистрация</span>
                             <hr id="Indicator">
                         </div>
                         <form id="LoginForm" method="POST" action="functions/user.php">
